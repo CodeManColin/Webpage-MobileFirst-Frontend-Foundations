@@ -13,7 +13,7 @@ header {
 .logo {
   font-family: "copperplate", 'Franklin Gothic Medium', Arial, sans-serif;
   font-size: 72px;
-  color: #ACB9C3;
+  color: #cbd5dd;
   text-align: center;
   letter-spacing: -50;
   margin: 0;
@@ -40,7 +40,7 @@ header nav {
   }
   
   header nav ul li a {
-    color: #ACB9C3;
+    color: #cbd5dd;
     text-decoration: none;
     padding: 0 20px 0 0;
     font-family: 'copperplate';
@@ -49,7 +49,7 @@ header nav {
   }
   
   header nav ul li a:hover {
-    color: #ADC2B9;
+    color: #b1ebd2;
   }
   
   @media all and (min-width: 700px) {
@@ -75,7 +75,7 @@ header nav {
 
 
 main {
-  background-color: #c8f2f8;
+  background-color: #bee8ee;
   padding: 20px 0;
 }
 
@@ -120,14 +120,14 @@ h3 {
   font-size: 18px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: underline;
-  color: #383D57;
+  color: #31364d;
   margin-top: -10px;
 }
 
 h4 {
   font-size: 16px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #383D57;
+  color: #31364d;
   padding-left: 20px;
 }
 
@@ -160,8 +160,8 @@ main a {
 
 main  a:link { color: #38786a; }
 main  a:visited { color: #38786a; }
-main  a:hover { color: #403933; }
-a:active { color: #403933; }
+main  a:hover { color: #1b2e47; }
+a:active { color: #1b2e47; }
 
 
 footer p {
