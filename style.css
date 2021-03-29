@@ -3,8 +3,6 @@
 
 body {
   margin: 0;
-  
-  
 }
 
 header {
@@ -13,10 +11,11 @@ header {
 }
 
 .logo {
-  font-family: "copperplate";
+  font-family: "copperplate", 'Franklin Gothic Medium', Arial, sans-serif;
   font-size: 72px;
   color: #ACB9C3;
-  text-align: justify;
+  text-align: center;
+  letter-spacing: -50;
   margin: 0;
   padding: 20px 0 0 0;
 }
@@ -76,7 +75,7 @@ header nav {
 
 
 main {
-  background-color: #CADFE2;
+  background-color: #c8f2f8;
   padding: 20px 0;
 }
 
@@ -85,8 +84,8 @@ section {
   margin-bottom: 60px;
 }
 
-section.light-background {   
-  background-color: #ADC2C2;
+section.darker-background {   
+  background-color: #aedada;
   padding-top: 80px;
   padding-bottom: 80px;
   margin: 60px 0;
@@ -102,7 +101,7 @@ footer {
 
 h1 {
   font-size: 32px;
-  font-family: Optima;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 400;
   color: #193039;
   text-align: center;  
@@ -110,7 +109,7 @@ h1 {
 
 h2 {
   font-size: 24px;
-  font-family: Optima;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 400;
   color: #193039;
   text-align: center;
@@ -119,7 +118,7 @@ h2 {
 
 h3 {
   font-size: 18px;
-  font-family: Optima;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: underline;
   color: #383D57;
   margin-top: -10px;
@@ -127,13 +126,13 @@ h3 {
 
 h4 {
   font-size: 16px;
-  font-family: Optima;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #383D57;
   padding-left: 20px;
 }
 
 p {
- font-family: Optima;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
  line-height: 1.5em;
  margin-top: 20px;
  margin-bottom: 10px;
@@ -144,6 +143,14 @@ p {
 ul {
 line-height: 1em;
 font-style: none;
+}
+
+li {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+line-height: 1.5em;
+margin-top: 10px;
+margin-bottom: 10px;
+padding-left: 20px;
 }
 
 main a {
@@ -172,7 +179,8 @@ img.image-enhanced1 {
   border-radius: 20px;
 }
 img.image-enhanced2 {
-  margin-top: 35px;
+  margin-top: 60px;
+  margin-left: 50px;
   border-radius: 20px;
 }
 img.image-enhanced3 {
