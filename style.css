@@ -1,4 +1,3 @@
-
 /* -------  General Styles ------- */
 
 body {
@@ -6,12 +5,12 @@ body {
 }
 
 header {
-  background-color: #112E40;
+  background-color: #112e40;
   margin-bottom: 50px;
 }
 
 .logo {
-  font-family: "copperplate", 'Franklin Gothic Medium', Arial, sans-serif;
+  font-family: "copperplate", "Franklin Gothic Medium", Arial, sans-serif;
   font-size: 72px;
   color: #cbd5dd;
   text-align: center;
@@ -23,56 +22,54 @@ header {
 /* ---  Navigation --- */
 
 header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+
+header nav ul li {
+  padding-top: 10px;
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: #cbd5dd;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+  font-family: "copperplate";
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+header nav ul li a:hover {
+  color: #98c2af;
+}
+
+@media all and (min-width: 700px) {
+  header {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
   }
-  
-  header nav ul {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 20px;
-  }
-  
-  header nav ul li {
+
+  .logo {
+    margin: 12px 0 12px 22px;
     padding-top: 10px;
-    list-style-type: none;
+    padding-left: 10px;
+    font-size: 50px;
   }
-  
-  header nav ul li a {
-    color: #cbd5dd;
-    text-decoration: none;
-    padding: 0 20px 0 0;
-    font-family: 'copperplate';
-    font-size: 20px;
+
+  header nav {
     margin-top: 20px;
   }
-  
-  header nav ul li a:hover {
-    color: #98c2af;
-  }
-  
-  @media all and (min-width: 700px) {
-    header {
-      display: flex;
-      justify-content: space-between;
-    }
-  
-    .logo {
-      margin: 12px 0 12px 22px;
-      padding-top: 10px;
-      padding-left: 10px;
-      font-size: 50px;
-    }
-    
-    header nav {
-      margin-top: 20px;
-    }
-  }
-
+}
 
 /* ---  Primary Groups --- */
-
 
 main {
   background-color: #bee8ee;
@@ -84,7 +81,7 @@ section {
   margin-bottom: 60px;
 }
 
-section.darker-background {   
+section.darker-background {
   background-color: #aedada;
   padding-top: 80px;
   padding-bottom: 80px;
@@ -92,7 +89,7 @@ section.darker-background {
 }
 
 footer {
-  background-color: #112E40;
+  background-color: #112e40;
   margin-top: 60px;
   margin-bottom: 20px;
 }
@@ -104,7 +101,7 @@ h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 400;
   color: #193039;
-  text-align: center;  
+  text-align: center;
 }
 
 h2 {
@@ -132,40 +129,46 @@ h4 {
 }
 
 p {
- font-family: Verdana, Geneva, Tahoma, sans-serif;
- line-height: 1.5em;
- margin-top: 20px;
- margin-bottom: 10px;
- padding-left: 20px;
- 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-left: 20px;
 }
 
 ul {
-line-height: 1em;
-font-style: none;
+  line-height: 1em;
+  font-style: none;
 }
 
 li {
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-line-height: 1.5em;
-margin-top: 10px;
-margin-bottom: 10px;
-padding-left: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
 }
 
 main a {
-	font-weight: 700;
-	text-decoration: none;	
+  font-weight: 700;
+  text-decoration: none;
 }
 
-main  a:link { color: #38786a; }
-main  a:visited { color: #38786a; }
-main  a:hover { color: #1b2e47; }
-a:active { color: #1b2e47; }
-
+main a:link {
+  color: #38786a;
+}
+main a:visited {
+  color: #38786a;
+}
+main a:hover {
+  color: #1b2e47;
+}
+a:active {
+  color: #1b2e47;
+}
 
 footer p {
-  color: #ACB9C3;
+  color: #acb9c3;
   text-align: center;
   padding: 40px;
 }
@@ -190,7 +193,16 @@ img.image-enhanced3 {
   display: flex;
   flex-direction: column;
   height: 300px;
-  }
+}
+img.image-enhanced4 {
+  border-radius: 20px;
+  margin-top: 100px;
+  margin-bottom: 56px;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 500px;
+}
 
 .group {
   display: flex;
@@ -206,8 +218,6 @@ img.image-enhanced3 {
   flex: 2;
 }
 
-
-
 /* ---  (Desktop) Groups & Items --- */
 
 @media all and (min-width: 800px) {
@@ -218,7 +228,6 @@ img.image-enhanced3 {
     flex-direction: row;
   }
 }
-
 
 /* --- Contact Form Design --- */
 
@@ -231,7 +240,7 @@ form label {
   display: block;
 }
 
-form input, 
+form input,
 form textarea {
   width: 100%;
   margin-bottom: 20px;
@@ -241,8 +250,3 @@ form textarea {
 form textarea {
   height: 350px;
 }
-
-
-
-
-
